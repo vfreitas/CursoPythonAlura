@@ -23,3 +23,5 @@ def escolha_jogo():
 
 if (__name__ == "__main__"):
     escolha_jogo()
+
+#AluraCursosOnline
