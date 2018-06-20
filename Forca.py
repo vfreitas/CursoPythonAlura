@@ -1,7 +1,7 @@
 def jogar():
-    print("*************\n"
-          "JOGO DA FORCA\n"
-          "*************\n")
+    print("***************************\n"
+          "-----  JOGO DA FORCA  -----\n"
+          "***************************\n")
 
     palavra_secreta = "banana"
 
