@@ -4,7 +4,7 @@ import Adivinhacao
 def escolha_jogo():
     print("**************\n"
           "Escolha o jogo\n"
-          "**************")
+          "**************\n")
 
     print("(1) Forca ou (2) Adivinhacao\n")
 

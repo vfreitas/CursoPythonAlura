@@ -2,8 +2,9 @@ import random
 
 
 def jogar():
-    print("JOGO DA ADIVINHACAO\n"
-          "*******************")
+    print("*******************\n"
+          "JOGO DA ADIVINHACAO\n"
+          "*******************\n")
 
     numero_secreto = round(random.randrange(1,101))
     pontos = 100
