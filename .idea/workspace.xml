@@ -16,14 +16,15 @@
       <file leaf-file-name="Forca.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Forca.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+            <state relative-caret-position="325">
+              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
               <folding>
+                <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#761#883#0" />
                 <element signature="e#920#1207#0" />
                 <element signature="e#1256#1289#0" />
-                <element signature="e#1319#1440#0" />
                 <element signature="e#1514#1745#0" />
+                <element signature="e#3116#4280#0" />
               </folding>
             </state>
           </provider>
@@ -183,7 +184,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838982" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45127118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -202,7 +203,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -211,11 +212,12 @@
         <state relative-caret-position="750">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
+            <element signature="e#0#13#0" expanded="true" />
             <element signature="e#761#883#0" />
             <element signature="e#920#1207#0" />
             <element signature="e#1256#1289#0" />
-            <element signature="e#1319#1440#0" />
             <element signature="e#1514#1745#0" />
+            <element signature="e#3116#4280#0" />
           </folding>
         </state>
       </provider>
@@ -383,14 +385,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Forca.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+        <state relative-caret-position="325">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
           <folding>
+            <element signature="e#0#13#0" expanded="true" />
             <element signature="e#761#883#0" />
             <element signature="e#920#1207#0" />
             <element signature="e#1256#1289#0" />
-            <element signature="e#1319#1440#0" />
             <element signature="e#1514#1745#0" />
+            <element signature="e#3116#4280#0" />
           </folding>
         </state>
       </provider>
