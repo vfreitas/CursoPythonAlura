@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="836b8d80-31b2-47d3-8c67-785b96b4792d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Adivinhacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Adivinhacao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JOGO.py" beforeDir="false" afterPath="$PROJECT_DIR$/JOGO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Forca.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +14,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Forca.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Forca.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Forca.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="1225">
+              <caret line="71" column="66" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
+              <folding>
+                <element signature="e#761#883#0" />
+                <element signature="e#920#1207#0" />
+                <element signature="e#1256#1289#0" />
+                <element signature="e#1319#1440#0" />
+                <element signature="e#1514#1745#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Adivinhacao.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Adivinhacao.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Adivinhacao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="250">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -61,10 +68,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Forca.py" />
         <option value="$PROJECT_DIR$/palavras.txt" />
         <option value="$PROJECT_DIR$/JOGO.py" />
         <option value="$PROJECT_DIR$/Adivinhacao.py" />
+        <option value="$PROJECT_DIR$/Forca.py" />
       </list>
     </option>
   </component>
@@ -171,14 +178,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10701107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10701107" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32838982" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -197,7 +203,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -205,6 +211,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#761#883#0" />
+            <element signature="e#920#1207#0" />
+            <element signature="e#1256#1289#0" />
+            <element signature="e#1319#1440#0" />
+            <element signature="e#1514#1745#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -362,17 +375,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Forca.py">
+    <entry file="file://$PROJECT_DIR$/Adivinhacao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Adivinhacao.py">
+    <entry file="file://$PROJECT_DIR$/Forca.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="1225">
+          <caret line="71" column="66" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
+          <folding>
+            <element signature="e#761#883#0" />
+            <element signature="e#920#1207#0" />
+            <element signature="e#1256#1289#0" />
+            <element signature="e#1319#1440#0" />
+            <element signature="e#1514#1745#0" />
+          </folding>
         </state>
       </provider>
     </entry>
