@@ -9,7 +9,7 @@ def jogar():
 
     for linha in arquivo:
         linha = linha.strip()
-        palavras.append(palavras)
+        palavras.append(linha)
 
     arquivo.close()
 
