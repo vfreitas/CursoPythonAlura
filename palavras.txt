@@ -1,5 +1,6 @@
 banana
 maca
-melancia
-manga
+melao
+abacaxi
+laranja
 maracuja

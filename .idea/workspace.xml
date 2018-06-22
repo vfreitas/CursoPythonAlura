@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="836b8d80-31b2-47d3-8c67-785b96b4792d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Forca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Forca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palavras.txt" beforeDir="false" afterPath="$PROJECT_DIR$/palavras.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Forca.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Forca.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Forca.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -22,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="palavras.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="palavras.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/palavras.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="150">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -63,6 +63,7 @@
         <option value="$PROJECT_DIR$/JOGO.py" />
         <option value="$PROJECT_DIR$/Adivinhacao.py" />
         <option value="$PROJECT_DIR$/Forca.py" />
+        <option value="$PROJECT_DIR$/palavras.txt" />
       </list>
     </option>
   </component>
@@ -360,17 +361,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/palavras.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Forca.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/palavras.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
