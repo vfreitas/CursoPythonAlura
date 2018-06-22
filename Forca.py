@@ -1,3 +1,6 @@
+import random
+
+
 def jogar():
     print("***************************\n"
           "-----  JOGO DA FORCA  -----\n"
@@ -13,10 +16,8 @@ def jogar():
 
     arquivo.close()
 
-    print(palavras)
-
-
-    palavra_secreta = "banana".upper()
+    numero = random.randrange(0, len(palavras))
+    palavra_secreta = palavras[numero].upper()
 
     enforcou = False
     acertou = False
@@ -27,7 +28,7 @@ def jogar():
     print("\nA palavra eh {}".format(letras_acertadas))
 
     while not enforcou and not acertou:
-        print("Tentativa {} de 6".format(erros+1))
+        print("ERROS: {} de 6".format(erros))
         chute = input("Informe a letra: ").strip().upper()
         print()
 
@@ -52,7 +53,6 @@ def jogar():
             break
         elif erros == 6:
             print("\n\nVOCE PERDEU!!")
-
 
         print("\n", letras_acertadas, "\n")
 
