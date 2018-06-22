@@ -9,7 +9,7 @@ def jogar():
     acertou = False
     erros = 0
 
-    letras_acertadas = ["_", "_", "_", "_", "_", "_"]
+    letras_acertadas = ["_" for letra in palavra_secreta]
 
     print("\nA palavra eh {}".format(letras_acertadas))
 
