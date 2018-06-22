@@ -27,10 +27,10 @@ def jogar():
         enforcou = erros == 6
 
         if not "_" in letras_acertadas:
-            print("\n\nVOCE GANHOU!!")
+            imprime_ganhador()
             break
         elif erros == 6:
-            print("\n\nVOCE PERDEU!!")
+            imprime_perdedor()
 
         print("\n", letras_acertadas, "\n")
 
@@ -79,6 +79,14 @@ def marca_chute_correto(chute, palavra_secreta, letras_acertadas):
             letras_acertadas[posicao] = chute
 
         posicao = posicao + 1
+
+
+def imprime_ganhador():
+    print("\n\nVOCE GANHOU!!")
+
+
+def imprime_perdedor():
+    print("\n\nVOCE PERDEU!!")
 
 
 if __name__ == "__main__":
