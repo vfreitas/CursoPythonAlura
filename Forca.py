@@ -3,7 +3,7 @@ def jogar():
           "-----  JOGO DA FORCA  -----\n"
           "***************************\n")
 
-    palavra_secreta = "banana"
+    palavra_secreta = "banana".upper()
 
     enforcou = False
     acertou = False
@@ -14,7 +14,7 @@ def jogar():
     print("\nA palavra eh {}".format(letras_acertadas))
 
     while not enforcou and not acertou:
-        chute = (input("Informe a letra: ").strip())
+        chute = input("Informe a letra: ").strip().upper()
         print()
 
         if chute in palavra_secreta:
@@ -22,7 +22,7 @@ def jogar():
 
             for letra in palavra_secreta:
 
-                if chute.upper() == letra.upper():
+                if chute == letra:
                     print("Encontrei a letra {} na posicao {}!".format(chute, posicao))
                     letras_acertadas[posicao] = chute
 
@@ -30,7 +30,6 @@ def jogar():
 
         else:
             erros = erros + 1
-
 
         print("\n", letras_acertadas, "\n")
         enforcou = erros == 6
