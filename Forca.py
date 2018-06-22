@@ -6,25 +6,35 @@ def jogar():
     palavra_secreta = "banana"
 
     enforcou = False
-    acertou  = False
+    acertou = False
+    erros = 0
 
-    letras_acertadas = ["_","_","_","_","_","_"]
+    letras_acertadas = ["_", "_", "_", "_", "_", "_"]
 
-    while(not enforcou and not acertou):
-        print("A palavra eh {}".format(letras_acertadas))
-        chute =  (input("Informe a letra: ").strip())
-        posicao = 0
+    print("\nA palavra eh {}".format(letras_acertadas))
 
-        for letra in palavra_secreta:
-            if (chute.upper() == letra.upper()):
-                print("Encontrei a letra {} na mosicao {}!".format(chute, posicao))
-                letras_acertadas[posicao] = chute
+    while not enforcou and not acertou:
+        chute = (input("Informe a letra: ").strip())
+        print()
 
-            posicao = posicao + 1
+        if chute in palavra_secreta:
+            posicao = 0
+
+            for letra in palavra_secreta:
+
+                if chute.upper() == letra.upper():
+                    print("Encontrei a letra {} na posicao {}!".format(chute, posicao))
+                    letras_acertadas[posicao] = chute
+
+                posicao = posicao + 1
+
+        else:
+            erros = erros + 1
 
 
-        print("Jogando...")
+        print("\n", letras_acertadas, "\n")
+        enforcou = erros == 6
 
-if (__name__ == "__main__"):
+
+if __name__ == "__main__":
     jogar()
-
