@@ -14,6 +14,7 @@ def jogar():
     print("\nA palavra eh {}".format(letras_acertadas))
 
     while not enforcou and not acertou:
+        print("Tentativa {} de 6".format(erros+1))
         chute = input("Informe a letra: ").strip().upper()
         print()
 
@@ -27,12 +28,20 @@ def jogar():
                     letras_acertadas[posicao] = chute
 
                 posicao = posicao + 1
-
         else:
+            print("A palavra NAO tem esta letra!")
             erros = erros + 1
 
-        print("\n", letras_acertadas, "\n")
         enforcou = erros == 6
+
+        if not "_" in letras_acertadas:
+            print("\n\nVOCE GANHOU!!")
+            break
+        elif erros == 6:
+            print("\n\nVOCE PERDEU!!")
+
+
+        print("\n", letras_acertadas, "\n")
 
 
 if __name__ == "__main__":
